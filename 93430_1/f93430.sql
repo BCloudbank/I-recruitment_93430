@@ -1,4 +1,7 @@
-﻿prompt --application/set_environment
+﻿--This is a comment
+--Jagajaga
+
+prompt --application/set_environment
 set define off verify off feedback off
 whenever sqlerror exit sql.sqlcode rollback
 --------------------------------------------------------------------------------
